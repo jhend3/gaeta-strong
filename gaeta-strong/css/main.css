@@ -1,0 +1,134 @@
+/***** BASE STYLES *****/
+body{
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Yantramanav', sans;
+background-color: whitesmoke;
+}
+
+/***** GRID *****/
+
+.full-width{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.half-width{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+/***** HEADER STYLES *****/
+
+header{
+    background-color: black;
+    height: 175px;
+    overflow: auto;
+}
+
+h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 60px;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    line-height: 75%;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+h1 a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+h3{
+    font-size: 26px;
+    color: whitesmoke;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+h4{
+    color: whitesmoke;
+    margin-left: 20px;
+    margin-top: 0px;
+    font-size: 18px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+nav {
+    float: right; 
+    padding-top: 125px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    height: 50px;
+}
+nav ul li{
+    display: inline-block;
+    color: whitesmoke;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: whitesmoke;
+    
+}
+
+/***** MAIN BODY STYLES *****/
+
+#container{
+    background: whitesmoke;
+    padding-top: 25px;
+}
+
+#left-image{
+    margin: 0 97 0 97px;
+    border-color: #000000;
+    border-style: solid;
+    border-width: medium;
+}
+
+#right-image{
+    margin: 0 97 0 97px;
+    border-color: black;
+    border-style: solid;
+    border-width: medium;
+
+}
+
+h2{
+    font-family:'Alfa Slab One', cursive;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    padding-top: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    clear:both;
+}
+
+p{
+    margin: 0 15px;
+    text-align: center;
+}
+
+/***** FOOTER STYLES *****/
+
+footer{
+    background: whitesmoke;
+    text-align: center;
+    clear: both;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/***** SUB PAGE UNIQUE STYLES *****/
+
+#contact-page h2, h3, h4{
+    color: black;
+    text-align: center;
+}
